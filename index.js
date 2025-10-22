@@ -33,19 +33,19 @@ fetchUserData(reqUrl2)
 // 3 URL to Get a Random User that’s Male
 // Call the fetchUserData function with this URL
 
-
-
+let reqUrl3 = requestUrl + "?gender=male"
+fetchUserData(reqUrl3)
 
 // 4 URL to Get a Random User while Excluding Their Email
 // Call the fetchUserData function with this URL
-
-
+let reqUrl4 = requestUrl + "?exc=email"
+fetchUserData(reqUrl4)
 
 
 
 // 5 Get 5 Female Users from the Colombia
 // Call the fetchUserData function with this URL
-
-
+let reqUrl5 = requestUrl + "?gender=female&nat=fr&results=5"
+fetchUserData(reqUrl5)
 
 
